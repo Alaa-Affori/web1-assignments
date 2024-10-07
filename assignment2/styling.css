@@ -1,0 +1,209 @@
+
+/* Style the body */
+body {
+    padding: 20px;
+    background-color: #D8D8DB;
+}
+
+/* Style the header */
+header {
+    background-color: #484849;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add space below the h1 */
+header h1 {
+    margin-bottom: 20px; 
+}
+
+/* Style the navigation bar */
+nav ul {
+    list-style: none; 
+    display: flex;
+    justify-content: center; 
+}
+
+/* Style each menu item */
+nav ul li {
+    margin-right: 25px;
+}
+
+/* Style the links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+/* Style the About Me section */
+#about {
+    width: 600px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    background-color: #f4f4f4; 
+    border-radius: 5px; 
+}
+
+#about h2 {
+    margin-bottom: 10px; 
+    text-align: center; 
+}
+
+#about p {
+    line-height: 1.6; 
+    text-align: left; 
+}
+
+/* Style the profile photo */
+.profile-photo {
+    display: block;
+    margin: 0 auto 20px auto; 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+#hobbies h2 {
+    text-align: center; 
+    margin-bottom: 50px; 
+}
+
+
+/* Style the Hobbies section */
+.hobbies-box {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    gap: 80px; 
+}
+
+.hobby-type {
+    text-align: center; 
+}
+
+/* Style the images */
+.picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 10px; 
+}
+
+/* Style the hobby titles */
+.hobby-type a {
+    display: block;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.hobby-type a:hover {
+    color: #915F6D; 
+}
+
+
+#favorite-hobby {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#favorite-hobby h2 {
+    margin-bottom: 50px;
+}
+
+#favorite-hobby form {
+    display: inline-block;
+}
+
+#favorite-hobby label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#favorite-hobby input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#favorite-hobby input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #915F6D;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#favorite-hobby input[type="submit"]:hover {
+    background-color: #C292A1;
+}
+
+
+/* Style the future goals section */
+#future-goals {
+    width: 600px; 
+    margin: 50px auto; 
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f4f4f4; 
+    text-align: center;
+}
+
+/* Style the heading */
+#future-goals h2 {
+    margin-bottom: 20px; 
+}
+
+/* Style the paragraph */
+#future-goals p {
+    text-align: left; 
+    line-height: 1.6; 
+}
+
+
+/* Style the projects section */
+#previous-projects {
+    width: 600px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    border-radius: 5px; 
+    text-align: center; 
+}
+
+/* Style the link */
+#previous-projects a {
+    text-decoration: none; 
+    color: #915F6D; 
+    margin-top: 10px; 
+    display: inline-block; 
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 50px; 
+    color: black; 
+    font-size: 45px;
+}
+
+/* Style the footer text */
+footer p {
+    font-weight: bold; 
+}

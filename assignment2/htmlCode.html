@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+
+    <!-- Header with name and navigation bar -->
+    <header>
+        <h1>Ala'a Affori</h1> 
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#favorite-hobby">Favorite Hobby</a></li>
+                <li><a href="#future-goals">Future Goals</a></li>
+                <li><a href="#previous-projects">Previous Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section: About Me -->
+    <section id="about">
+        <img src="./Alaa (2).jpg" alt="Ala's Photo" class="profile-photo">
+        <h2>About Me</h2>
+        <p>
+            I am Ala'a Affori, a CAP student at An-Najah National University. My enthusiasm for technological advancements 
+            motivates me to join this program. Beyond my academic interests, I am deeply committed to voluntary work. For example,
+            I volunteered as a Content Writer and Secretary at the IEEE An-Najah Student Branch, where I had the honor of being selected 
+            as the IEEE Day Ambassador in 2022. Additionally, I volunteered at the language resource center (LRC), teaching Arabic to
+            international volunteers. I find joy and fulfillment in volunteering and making a positive impact in my community as I 
+            believe in the power of collaboration! 
+        </p>
+    </section>
+
+    <!-- Section: Hobbies -->
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <div class="hobbies-box">
+            <!-- Each hobby type with an image and link -->
+            <div class="hobby-type">
+                <img src="./reading.jpg" alt="Reading" class="picture">
+                <a href="https://en.wikipedia.org/wiki/Reading" target="_blank">Reading</a>
+            </div>
+            <div class="hobby-type">
+                <img src="./writing.jpg" alt="Writing" class="picture">
+                <a href="https://en.wikipedia.org/wiki/Writing" target="_blank">Writing</a>
+            </div>
+            <div class="hobby-type">
+                <img src="./gardening.jpg" alt="Gardening" class="picture">
+                <a href="https://en.wikipedia.org/wiki/Gardening" target="_blank">Gardening</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Favorite Hobby (with a form for user input) -->
+    <section id="favorite-hobby">
+        <h2>Make a Guess</h2>
+        <form>
+            <label for="user-guess">Can you make a guess to discover what my favorite hobby is?</label><br>
+            <input type="text" id="user-guess" name="user-guess" required>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Section: Future Goals -->
+    <section id="future-goals">
+        <h2>My Future Goals</h2>
+        <p>
+            As I look toward the future, I find myself grappling with uncertainty about my career path. 
+            I am still confused about whether I want to delve into the field of software development, explore 
+            the exciting possibilities of artificial intelligence, or take a different direction altogether. 
+            Additionally, I ponder whether to pursue higher education further or jump directly into the workforce. 
+            Each option holds its appeal, and the possibilities seem endless. Ultimately, I hope to find a path 
+            that not only challenges me but also aligns with my passions and aspirations.
+        </p>
+    </section>
+
+    <!-- Section: Previous Projects (with a link to a project) -->
+    <section id="previous-projects">
+        <h2>My Previous Projects</h2>
+        <p>Check out one of my previous projects:</p>
+        <a href="https://jovian.com/alaa-afoore/heart-disease-analysis-c7c26" target="_blank">Exploratory Data Analysis: Heart Disease Prediction</a>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>That's a wrap</p>
+    </footer>
+
+</body>
+</html>
